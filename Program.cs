@@ -16,6 +16,8 @@
         {
             Console.WriteLine("{0} khong la so nguyen to", a);
         }
+
+        Console.WriteLine(TinhTong(a));
     }
 
     static bool CheckSoNguyenTo(int number)
@@ -33,5 +35,16 @@
     static bool CheckChiaHet(int a123, int b)
     {
         return a123 % b == 0;
+    }
+
+    static int TinhTong(int number)
+    {
+        int tong = 0;
+        for (int i = 1; i <= number; i++)
+        {
+            // tong = tong + i;
+            tong += i; 
+        }
+        return tong;
     }
 }
