@@ -2,3 +2,4 @@
 Console.WriteLine("Hello, World!");
 bool newbool = true;
 Console.WriteLine(newbool);
+Console.ReadLine();
